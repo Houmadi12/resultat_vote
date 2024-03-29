@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.card_resultat{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 1px rgb(61, 60, 60);
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.candidat {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.candidat h1{
+    padding: 10px;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow:0px 0px 10px 0px gray;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+  }
+  th {
+    text-align: left;
+  }
+  thead th {
+    background-color: #0934f581;
+  }
+  tbody tr:hover {
+    background-color: rgb(134, 31, 31);
+  }
+  tbody td {
+    position: relative;
+  }
+
+.resultat{
+    margin-bottom: 20px;
+    border: 1px solid green;
+    padding: 10px 95px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:0px 0px 10px 0px green;
+    display: flex;
+    flex-direction: column;
+ }
